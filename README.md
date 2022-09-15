@@ -1,3 +1,3 @@
 # FST
 
-Implementation of paper "Learning from future: a novel framework for semantic segmentation".
+Implementation of paper "Learning from Future: A Novel Self-Training Framework for Semantic Segmentation".
