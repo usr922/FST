@@ -55,11 +55,11 @@ Prepare datasets follow the instructions below:
   ```
 <\details>  
 
-  <details>
+<details>
   <summary>For GTA5</summary>
   Download all image and label packages from [here](https://download.visinf.tu-darmstadt.de/data/from_games/) and extract them to `data/gta`.
   The UDA data folder structure should look like this:
- 	<\details>
+<\details>
 
 <details>
   <summary>For SYNTHIA</summary>
@@ -86,7 +86,8 @@ DAFormer
 ```
 <\details>
 
-  <details>
+  
+<details>
   <summary>For VOC 2012</summary>
 Refer to [this link](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary of the semantic segmentation datasets.md) and download `PASCAL VOC 2012 augmented with SBD` dataset.
 Then unzip the files to folder ```data``` and make the dictionary structures as follows:
@@ -99,7 +100,7 @@ data/VOC2012
 ├── SegmentationClassAug
 └── SegmentationObject
 ```
-   <\details>
+<\details>
 
 
 
