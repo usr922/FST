@@ -40,8 +40,8 @@ Prepare datasets follow the instructions below:
 
 <details>
   <summary>For Cityscapes</summary>
-  For UDA, download leftImg8bit_trainvaltest.zip and gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/) and extract them to `data/cityscapes`.
-  For SSL, Next, unzip the files to folder ```data``` and make the dictionary structures as follows:
+For UDA, download leftImg8bit_trainvaltest.zip and gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/) and extract them to `data/cityscapes`.
+For SSL, Next, unzip the files to folder ```data``` and make the dictionary structures as follows:
   ```angular2html
   data/cityscapes
   ├── gtFine
@@ -57,15 +57,14 @@ Prepare datasets follow the instructions below:
 
 <details>
   <summary>For GTA5</summary>
-  Download all image and label packages from [here](https://download.visinf.tu-darmstadt.de/data/from_games/) and extract them to `data/gta`.
-  The UDA data folder structure should look like this:
+Download all image and label packages from [here](https://download.visinf.tu-darmstadt.de/data/from_games/) and extract them to `data/gta`. The UDA data folder structure should look like this:
 <\details>
 
 <details>
   <summary>For SYNTHIA</summary>
 Download SYNTHIA-RAND-CITYSCAPES from [here](http://synthia-dataset.net/downloads/) and extract it to `data/synthia`.
-  ```none
-DAFormer
+```none
+.
 ├── ...
 ├── data
 │   ├── cityscapes
