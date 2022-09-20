@@ -42,7 +42,6 @@ Prepare datasets follow the instructions below:
 
 For UDA, download leftImg8bit_trainvaltest.zip and gt_trainvaltest.zip from [here](https://www.cityscapes-dataset.com/downloads/) and extract them to `data/cityscapes`.
 For SSL, Next, unzip the files to folder ```data``` and make the dictionary structures as follows:
-
 ```angular2html
   data/cityscapes
   ├── gtFine
@@ -56,13 +55,10 @@ For SSL, Next, unzip the files to folder ```data``` and make the dictionary stru
 ```
 
 ##### GTA5
-
 Download all image and label packages from [here](https://download.visinf.tu-darmstadt.de/data/from_games/) and extract them to `data/gta`.
 
 ##### SYNTHIA
-
 Download SYNTHIA-RAND-CITYSCAPES from [here](http://synthia-dataset.net/downloads/) and extract it to `data/synthia`. The UDA data folder structure should look like this:
-
 ```angular2html
   .
   ├── ...
@@ -85,10 +81,8 @@ Download SYNTHIA-RAND-CITYSCAPES from [here](http://synthia-dataset.net/download
 ```
 
 ##### VOC 2012
-
-Refer to [this link](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary of the semantic segmentation datasets.md) and download `PASCAL VOC 2012 augmented with SBD` dataset.
+Refer to https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary of the semantic segmentation datasets.md and download `PASCAL VOC 2012 augmented with SBD` dataset.
 Then unzip the files to folder ```data``` and make the dictionary structures as follows:
-
 ```angular2html
   data/VOC2012
   ├── Annotations
