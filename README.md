@@ -151,7 +151,7 @@ sh train.sh
 ```shell
 cd semi_seg/experiments/cityscapes/372/mt_fst
 sh eval.sh
-``
+```
 
 
 
