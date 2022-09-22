@@ -81,7 +81,7 @@ Download SYNTHIA-RAND-CITYSCAPES from [here](http://synthia-dataset.net/download
 ```
 
 ##### VOC 2012
-Refer to https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary of the semantic segmentation datasets.md and download `PASCAL VOC 2012 augmented with SBD` dataset.
+Refer to [this link](https://github.com/zhixuanli/segmentation-paper-reading-notes/blob/master/others/Summary%20of%20the%20semantic%20segmentation%20datasets.md) and download `PASCAL VOC 2012 augmented with SBD` dataset.
 Then unzip the files to folder ```data``` and make the dictionary structures as follows:
 ```angular2html
   data/VOC2012
