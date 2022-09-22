@@ -119,15 +119,16 @@ Then unzip the files to folder ```data``` and make the dictionary structures as 
 
 ## Usage
 
-### Training
+
+### UDA
+#### Training
 
 Run the `./train.sh` command or
-
 ```shell
 python run_experiments.py --config $CONFIG_FILE
 ```
 
-### Testing
+#### Testing
 
 To test the trained models, download the trained weights, then run
 
@@ -136,6 +137,22 @@ sh test.sh path/to/checkpoint_directory
 ```
 
 The trained models can be found in Model Zoo.
+
+### SSL
+
+#### Training
+For example, to train FST on Cityscapes:
+```shell
+cd semi_seg/experiments/cityscapes/372/mt_fst
+sh train.sh
+```
+
+#### Testing
+```shell
+cd semi_seg/experiments/cityscapes/372/mt_fst
+sh eval.sh
+``
+
 
 
 
